@@ -16,7 +16,7 @@ console.log('app.js is connected.');
               //  prompt is a method that opens the prompt window with an input box for the user name
 let userName = prompt('What is your name?');
 
-console.log(userName);
+// console.log(userName);
 //alert is another method.
 alert('Hello ' + userName);
 
@@ -24,7 +24,7 @@ alert('Hello ' + userName);
 //ask what time is it? 
 //variable assignment and declaration
 let userTime = prompt('What time is it?');
-console.log(userTime);
+// console.log(userTime);
 
 //have some logic to respond to the user.
 // if(this is true){
@@ -49,10 +49,10 @@ if(userTime <= 11){
 } 
 
 //this will output the message variable with the assigned value based on the if else conditional.
-console.log('This is the if output ', message);
+// console.log('This is the if output ', message);
 
 
 //out put the users response to the page. 
 
 
-document.write('Hello ' + userName + message);
+document.write('Hello ' + userName +  '! '   + message);
